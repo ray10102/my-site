@@ -1,0 +1,5 @@
+<nav>
+  <a *ngFor="let page of pages" routerLink="/{{page.path}}">
+    <span class="main-nav" >{{page.name}}</span>
+  </a>
+</nav>
